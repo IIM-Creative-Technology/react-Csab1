@@ -18,6 +18,7 @@ class App extends Component {
          
       
           <Selector />
+       
       <div id='bracket'></div>   
         </header>
       </div>
