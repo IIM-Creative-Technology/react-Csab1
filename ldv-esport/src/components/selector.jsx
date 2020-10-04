@@ -1,11 +1,11 @@
 import React from 'react';
 import Createbracket from './createbracket'
 
-
 const Selector = ({ }) => (
+   
     <div >
+        <h1>Crée votre tournois</h1>
         <label for="bracket-select">Choisir un type de tournois</label>
-
         <select name="selectortype" id="tournament-select">
             <option value="">--Option de tournois--</option>
             <option value="Single elimination">Single Elimination</option>
@@ -22,7 +22,13 @@ const Selector = ({ }) => (
             <option value="14">14</option>
             <option value="16 ">16</option>
         </select>
-        <button onClick={Createbracket} >Go</button>
+        
+        <p>Entrer le nom des participant</p>
+
+   
+        <input id='player'></input>
+        
+        <button id='output' onClick={Createbracket}  >Go</button>
 
     </div>
 

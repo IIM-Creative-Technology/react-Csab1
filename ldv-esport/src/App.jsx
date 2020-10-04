@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Form from "@rjsf/core";
+
 
 import List from './components/List.jsx';
 import data from './data.json';
@@ -18,8 +20,9 @@ class App extends Component {
          
       
           <Selector />
-       
+    
       <div id='bracket'></div>   
+      <div id='app'></div>
         </header>
       </div>
     );

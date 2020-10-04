@@ -8,6 +8,9 @@ import Item from './Item'
 
  function createbracket(){
 
+
+
+
 var number = document.getElementById("nb-select").options[document.getElementById('nb-select').selectedIndex].text;
 for(let i=0;i<{number};i++){React.createElement(<Item/>)}
 ReactDOM.render(
@@ -16,7 +19,10 @@ ReactDOM.render(
 document.getElementById('bracket'),
 
 )
- 
+
+
+
+
  }
 
 export default createbracket
