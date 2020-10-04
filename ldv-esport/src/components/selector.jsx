@@ -2,8 +2,9 @@ import React from 'react';
 import Createbracket from './createbracket'
 
 const Selector = ({ }) => (
-   
+  
     <div >
+        
         <h1>Crée votre tournois</h1>
         <label for="bracket-select">Choisir un type de tournois</label>
         <select name="selectortype" id="tournament-select">
@@ -25,13 +26,13 @@ const Selector = ({ }) => (
         
         <p>Entrer le nom des participant</p>
 
-   
+   <form id='json'>
         <input id='player'></input>
         
-        <button id='output' onClick={Createbracket}  >Go</button>
-
+        <button id='getDataBtn' onClick={Createbracket}  >Go</button>
+</form>
     </div>
-
+// recuperer le form en json ??? //
 );
 
 

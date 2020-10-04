@@ -13,6 +13,7 @@ import Item from './Item'
 
 var number = document.getElementById("nb-select").options[document.getElementById('nb-select').selectedIndex].text;
 for(let i=0;i<{number};i++){React.createElement(<Item/>)}
+
 ReactDOM.render(
 
 <List list={data}/>,
